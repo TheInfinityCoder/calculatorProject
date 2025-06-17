@@ -1,0 +1,158 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calculator {
+  height: 460px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #3a7ca5;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -3px -3px 6px rgba(0, 0, 0, 0.7);
+}
+
+#screen {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 80px;
+  width: 243px;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #d9dcd6;
+  font-size: 40px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -3px -3px 6px rgba(0, 0, 0, 0.7);
+}
+.keys {
+  height: 280px;
+  width: 260px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: #81c3d7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -3px -3px 6px rgba(0, 0, 0, 0.7);
+}
+input {
+  direction: ltr;
+  padding-inline-end: 15px;
+}
+
+#logo {
+  text-align: center;
+  margin: 10px;
+}
+
+.buttons {
+  font-size: 20px;
+  font-weight: bold;
+  height: 44px;
+  width: 44px;
+  border: 2px solid black;
+  margin: 6px;
+  border-radius: 50%;
+  background-color: rgb(116, 168, 28);
+  transition: background-color 0.001s;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -3px -3px 6px rgba(0, 0, 0, 0.7);
+}
+.buttons:active {
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.6);
+  background-color: #e67e22;
+  transform: scale(0.95);
+}
+#eql {
+  background-color: #b2cede;
+  border-radius: 50px;
+  transition: background-color 0.001s;
+}
+#eql:active {
+  background-color: #e67e22;
+}
+
+#AC {
+  background-color: #ad7a99;
+  transition: background-color 0.001s;
+  transition: background-color 0.001s;
+}
+#AC:active {
+  background-color: #e67e22;
+}
+
+.buttons:active {
+  background-color: #e67e22;
+}
+
+#Del {
+  background-color: #ad7a99;
+  transition: background-color 0.001s;
+}
+
+#Del:active {
+  background-color: #e67e22;
+}
+
+.buttons:active {
+  background-color: #e67e22;
+}
+#add {
+  background-color: #6a8eae;
+  transition: background-color 0.001s;
+}
+#add:active {
+  background-color: #e67e22;
+}
+#sub {
+  background-color: #6a8eae;
+  transition: background-color 0.001s;
+}
+#sub:active {
+  background-color: #e67e22;
+}
+#mul {
+  background-color: #6a8eae;
+  transition: background-color 0.001s;
+}
+#mul:active {
+  background-color: #e67e22;
+}
+#div {
+  background-color: #6a8eae;
+  transition: background-color 0.001s;
+}
+#div:active {
+  background-color: #e67e22;
+}
+#leftBkt {
+  background-color: #6a8eae;
+  transition: background-color 0.001s;
+}
+#leftBkt:active {
+  background-color: #e67e22;
+}
+#rightBkt {
+  background-color: #6a8eae;
+  transition: background-color 0.001s;
+}
+#rightBkt:active {
+  background-color: #e67e22;
+}
+#pnt {
+  background-color: #6a8eae;
+  transition: background-color 0.001s;
+}
+#pnt:active {
+  background-color: #e67e22;
+}
